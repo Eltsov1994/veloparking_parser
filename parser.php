@@ -1,6 +1,6 @@
 <?
 header('Content-Type: text/html; charset=UTF-8');
-include $_SERVER['DOCUMENT_ROOT'].'/libs/info.php';
+//include $_SERVER['DOCUMENT_ROOT'].'/libs/info.php';
 
 //==============================================
 $URLnovasport = 'novasport.xml';
@@ -92,6 +92,9 @@ foreach ($category_default as $default_value) {
 	}
 
 }
+
+
+
 
 
 //echo "<pre>"; print_r($category); echo "<pre>";
