@@ -95,8 +95,6 @@ foreach ($category_default as $default_value) {
 
 
 
-
-
 //echo "<pre>"; print_r($category); echo "<pre>";
 
 foreach ($category as $value) {
