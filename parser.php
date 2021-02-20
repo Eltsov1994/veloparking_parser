@@ -31,6 +31,11 @@ $parentId = [
 		'parentId' => '1528',
 		'id' => '1423',
 	],
+	[
+		'name' => 'Велозапчасти',
+		'parentId' => '1528',
+		'id' => '1101',
+	],
 ];
 
 
@@ -118,19 +123,21 @@ function getOffers(){
 			if ( $categoryId === $all_value['parentId'] ){
 
 				$GLOBALS['offers_all'][] = $default_value;
+				break;
 
 			}
 
 		}
 
 	}
+
 }
 
 
 //* return: $category_all, offers_all
 
 //echo "<pre>"; print_r($category_all); echo "<pre>";
-//echo "<pre>"; print_r($offers_all); echo "<pre>";
+// echo "<pre>"; print_r($offers_all); echo "<pre>";
 
 
 ?>
